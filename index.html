@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>BAY AREA BOBA GUESSR</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Balsamiq+Sans"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="out.js"></script>
+  </head>
+
+  <body>
+    <div id="cream"></div>
+    <div id="balls"></div>
+    <div id="content">
+      <div>
+        <h1 style="padding-bottom: 0; padding-top: 60px">BAY AREA</h1>
+        <h1 style="padding-top: 0">BOBA GUESSR</h1>
+      </div>
+      <div id="viewer-container">
+        <div id="img"></div>
+        <div id="mapwrap" style="transform: scale(0)">
+          <div id="map"></div>
+        </div>
+      </div>
+      <!-- <div id="rescontainer"></div> -->
+      <!-- <button id="next" hidden="true">Next</button> -->
+      <!-- <button id="guess">Guess</button> -->
+      <!-- <button id="confirm" hidden="true">Confirm Guess</button> -->
+      <button id="confirm" hidden="true" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">Confirm Guess</span>
+      </button>
+      <button id="hide-map" hidden="true" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">Hide Map</span>
+      </button>
+
+      <button id="next" hidden="true" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">Next</span>
+      </button>
+
+      <button id="show-map" hidden="true" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">Show Map</span>
+      </button>
+
+      <button id="guess" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">Guess</span>
+      </button>
+    </div>
+  </body>
+</html>
